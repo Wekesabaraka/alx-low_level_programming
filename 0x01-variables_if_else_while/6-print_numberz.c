@@ -3,16 +3,16 @@
 #include <time.h>
 
 /**
- * main
+ * main - Entry point
  *
- * Return: Always 0
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int k;
+	int d;
 
-	for (k = '0'; k <= '9'; k++)
+	for (d = '0'; d <= '9'; d++)
 		putchar(d);
 	putchar('\n');
 
