@@ -8,12 +8,12 @@
  */
 int main(void)
 {
-	char word[9] = "main";
+	char word[4] = "main";
 	int i;
 
-	for (i = 0; i < 9; i++)
-		_putchar(word[i]);
-	_putchar('\n');
+	for (i = 0; i < 4; i++)
+		putchar(word[i]);
+                putchar('\n');
 
 	return (0);
 }
